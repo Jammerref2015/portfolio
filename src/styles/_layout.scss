@@ -20,3 +20,10 @@
         }
     }
 }
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4rem;
+    row-gap: 3rem;
+}
