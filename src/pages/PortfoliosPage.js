@@ -6,7 +6,7 @@ import portfolios from '../components/allportfolios';
 import { useState } from 'react';
 
 const allCategories = ['All', ...new Set(portfolios.map(item => item.category))];
-console.log(allCategories);
+
 
 function PortfoliosPage() {
     const [categories, setCategories] = useState(allCategories);
