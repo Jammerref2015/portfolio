@@ -8,11 +8,11 @@
 
 
 .hero-text {
-    color: white;
+    color: #d3e5ec;
     text-align: center;
     font-size: 3.6rem;
     span {
-        color: #037FFF;
+        color: #628aa7;
     }
 }
 
@@ -34,13 +34,13 @@
             transition: all .4s ease-in-out;
         }
         .yt:hover {
-            color: red;
+            color:#d3e5ec;
         }
         .gh:hover {
-            color: rgba(212, 45, 212, 0.788);
+            color: #d3e5ec;
         }
         .fb:hover {
-            color: blue;
+            color: #d3e5ec;
         }
     }
 }
