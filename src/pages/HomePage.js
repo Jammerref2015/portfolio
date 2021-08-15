@@ -1,5 +1,5 @@
 import React from 'react';
-import {faFacebook, faYoutube, faGithub} from '@fortawesome/free-brands-svg-icons';
+import {faInstagram, faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {Link} from 'react-router-dom';
 
@@ -17,13 +17,13 @@ function HomePage() {
                 </p>
                 <div className="icons">
                     <Link className="icon-holder">
-                        <FontAwesomeIcon icon={faFacebook} className="icon fb" />
-                    </Link>
+                        <FontAwesomeIcon icon={faInstagram} className="icon ig" />
+                    </Link> 
                     <Link className="icon-holder">
                         <FontAwesomeIcon icon={faGithub} className="icon gh"/>
                     </Link>
                     <Link className="icon-holder">
-                        <FontAwesomeIcon icon={faYoutube} className="icon yt" />
+                        <FontAwesomeIcon icon={faLinkedin} className="icon li" />
                     </Link>
                 </div>
             </header>

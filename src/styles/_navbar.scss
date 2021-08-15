@@ -14,10 +14,13 @@
         margin-top: 1rem;
         border-bottom: 1px solid #628aa7;
         img {
-            width: 70%;
-            border-radius: 100%;
+            width: 65%;
+            border-radius: 10%;
             border: 5px solid #d3e5ec;
             margin-bottom: 1rem;
+            box-shadow: 10px 10px 31px -8px rgba(0,0,0,1);
+        -webkit-box-shadow: 10px 10px 31px -8px rgba(0,0,0,1);
+        -moz-box-shadow: 10px 10px 31px -8px rgba(0,0,0,1);
         }
     }
 
