@@ -32,15 +32,27 @@
             font-size: 2.5rem;
             color:#a4acc4;
             transition: all .4s ease-in-out;
+
+            transform: rotate(0deg) skew(0deg)
+                       translate(0, 0);
+            transition: 0.5;
+            box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.3);
+            border-radius: 50%;
         }
-        .yt:hover {
+        .ig:hover {
             color:#d3e5ec;
+            transform: rotate(0deg) skew(0deg)
+                       translate(-8px, 7px);   
         }
         .gh:hover {
             color: #d3e5ec;
+            transform: rotate(0deg) skew(0deg)
+                       translate(0px, 8px);
         }
-        .fb:hover {
+        .li:hover {
             color: #d3e5ec;
+            transform: rotate(0deg) skew(0deg)
+                       translate(8px, 7px);
         }
     }
 }

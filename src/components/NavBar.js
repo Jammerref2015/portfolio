@@ -33,7 +33,7 @@ function NavBar() {
                     </li>
                     <li className="nav-item">
                      <NavLink to="/contact" exact activeClassName="active">
-                        Contacts
+                        Contact
                      </NavLink>
                     </li>
                 </ul>

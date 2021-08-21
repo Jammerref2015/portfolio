@@ -1,27 +1,31 @@
-import blog1 from '../img/blogs/blog1.svg';
-import blog2 from '../img/blogs/blog2.svg';
+// import blog1 from '../img/blogs/blog1.svg';
+import retro_game_hackathon from '../img/blogs/retro_game_hackathon.jfif';
+import pride_hackathon from '../img/blogs/pride_hackathon.jfif';
 import blog3 from '../img/blogs/blog3.svg';
 import blog4 from '../img/blogs/blog4.svg';
 import blog5 from '../img/blogs/blog5.svg';
 
+
+
+
 const blogs = [
     {
         id: 1,
-        image: blog1,
-        title: 'UI/UX Design Starter with Figma',
-        link: 'https://www.facebook.com/',
+        image: retro_game_hackathon,
+        title: 'Video Game Hackathon!',
+        link: 'https://github.com/dilner1/Granny_Exorcist',
         date : '21',
-        month: 'Mar',
-        year: '2020'
+        month: 'Aug',
+        year: '2021'
     },
     {
         id: 2,
-        image: blog2,
-        title: 'UI/UX Design Starter with Figma',
-        link: 'https://www.facebook.com/',
+        image: pride_hackathon,
+        title: 'Hackathon to celebrate Pride!',
+        link: 'https://github.com/Jammerref2015/Flipping-Proud',
         date : '09',
-        month: 'Dec',
-        year: '2019'
+        month: 'July',
+        year: '2021'
     },
     {
         id: 3,
@@ -70,7 +74,7 @@ const blogs = [
     },
     {
         id: 8,
-        image: blog1,
+        image: retro_game_hackathon,
         title: 'Test Blogs data2',
         link: 'https://www.facebook.com/',
         date : '09',

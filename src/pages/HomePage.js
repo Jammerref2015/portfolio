@@ -20,7 +20,8 @@ function HomePage() {
                         <FontAwesomeIcon icon={faInstagram} className="icon ig" />
                     </Link> 
                     <Link className="icon-holder">
-                        <FontAwesomeIcon icon={faGithub} className="icon gh"/>
+                    <a href="https://www.apple.com" target="_blank"><FontAwesomeIcon icon={faGithub} className="icon gh"/>
+                        </a>
                     </Link>
                     <Link className="icon-holder">
                         <FontAwesomeIcon icon={faLinkedin} className="icon li" />

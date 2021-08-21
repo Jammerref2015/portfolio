@@ -24,7 +24,7 @@
                 left: 15px;
                 height: calc(100% - 30px);
                 width: calc(100% - 30px);
-                background-color: rgba(255, 255, 255, 0.925);
+                background-color: rgba(255, 255, 255, 0.325);
                 transform-origin: center;
                 transform: scale(0);
                 transition: all .4s ease-in-out;
@@ -52,8 +52,8 @@
                         padding: 1rem;
                         text-decoration: none;
                         font-family: inherit;
-                        border-radius: 10px;
-                        background-color: #037FFF;
+                        border-radius: 10px inset;
+                        background-color: #628aa7;
                         color: white;
                         &:not(:last-child){
                             margin-right: 2rem;
