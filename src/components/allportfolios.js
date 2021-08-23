@@ -1,20 +1,25 @@
 // import port1 from '../img/portImages/maya-1.jpg';
 // import port2 from '../img/portImages/port1.jpg';
-import port3 from '../img/portImages/port2.jpg';
-import port4 from '../img/portImages/port3.jpg';
-import port6 from '../img/portImages/port5.jpg';
-import port7 from '../img/portImages/port6.jpg';
-import retro_game_hackathon from '../img/blogs/retro_game_hackathon.jfif';
-import pride_hackathon from '../img/blogs/pride_hackathon.jfif';
+// import port3 from '../img/portImages/port2.jpg';
+// import port4 from '../img/portImages/port3.jpg';
+// import port6 from '../img/portImages/port5.jpg';
+// import port7 from '../img/portImages/port6.jpg';
+import retro_game_hackathon from '../img/portImages/retro_game_hackathon.jfif';
+import pride_hackathon from '../img/portImages/pride_hackathon.jfif';
+import Firebirds from '../img/portImages/Firebirds.PNG';
+import frenchFun from '../img/portImages/frenchFun.PNG';
+import movieReview from '../img/portImages/movieReview.PNG';
+import Dark_Castle from '../img/portImages/Dark_Castle.PNG';
+import slack from '../img/portImages/slack.PNG';
 
 const portfolios = [
     {
         id: 1,
         category: 'Hackathon',
-        link1: 'https://github.com/dilner1/Granny_Exorcist',
-        link2: 'www.github.com',
-        icon1: 'Visit site',
-        icon2: 'Live site',
+        link1: 'https://dilner1.github.io/Granny_Exorcist/',
+        link2: 'https://github.com/dilner1/Granny_Exorcist',
+        icon1: 'site',
+        icon2: 'repo',
         image: retro_game_hackathon,
         title: 'Video Game Hackathon!'
     },
@@ -23,61 +28,64 @@ const portfolios = [
         category: 'Hackathon',
         link1: 'https://github.com/Jammerref2015/Flipping-Proud',
         link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
+        icon1: 'site',
+        icon2: 'repo',
         image: pride_hackathon,
         title: 'Hackathon to celebrate Pride!'
     },
     {
         id: 3,
-        category: 'Animation',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
-        image: port3,
-        title: 'Autodesk Maya'
+        category: 'Code Institute Project',
+        link1: 'https://jammerref2015.github.io/CorkCityFirebirds-Website/',
+        link2: 'https://github.com/Jammerref2015/CorkCityFirebirds-Website',
+        icon1: 'site',
+        icon2: 'repo',
+        image: Firebirds,
+        title: 'CorkCity Firebirds Roller Derby'
     },
     {
         id: 4,
-        category: 'Javascript',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
-        image: port4,
-        title: 'Vanilla Javascript Website'
+        category: 'Code Institute Project',
+        link1: 'https://jammerref2015.github.io/Frenchisfun/',
+        link2: 'https://github.com/Jammerref2015/Frenchisfun',
+        icon1: 'site',
+        icon2: 'repo',
+        image: frenchFun,
+        title: 'French is Fun. A simple learning langauge app.'
     },
     {
         id: 5,
-        category: 'React Js',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
-        image: port6,
-        title: 'Getting Started With React'
+        category: 'Code Institute Project',
+        link1: 'http://watchthisnext.herokuapp.com/get_movies',
+        link2: 'https://github.com/Jammerref2015/watchthisnext',
+        icon1: 'site',
+        icon2: 'repo',
+        image: movieReview,
+        title: 'Watch This Next - A simple movie review site. (Flask and MongoDB)'
     },
     {
         id: 6,
-        category: 'React Js',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
-        image: port7,
-        title: 'Vanilla Javascript Website'
+        category: 'Code Institute Project',
+        link1: 'https://darkcastlebrewery.herokuapp.com/',
+        link2: 'https://github.com/Jammerref2015/Dark-Castle-Brewery1',
+        icon1: 'site',
+        icon2: 'repo',
+        image: Dark_Castle,
+        title: ' Dark Castle Brewery. Full stack E-commerce app. (Django, AWS)'
     },
     {
         id: 7,
-        category: 'Test Port',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
-        image: port4,
-        title: 'Vanilla Javascript Website'
+        category: 'React JS',
+        link1: 'https://slack-clone-bd940.web.app/',
+        link2: 'https://github.com/Jammerref2015/slack-clone',
+        icon1: 'site',
+        icon2: 'repo',
+        image:  slack,
+        title: 'Work in progress slack clone. (reactJS)'
     }
 ]
 
 export default portfolios;
+
+
+
