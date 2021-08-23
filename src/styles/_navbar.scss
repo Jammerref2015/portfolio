@@ -14,6 +14,8 @@
         margin-top: 1rem;
         border-bottom: 1px solid #628aa7;
         img {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(5px);
             width: 65%;
             border-radius: 10%;
             border: 5px solid #d3e5ec;
@@ -21,6 +23,7 @@
             box-shadow: 10px 10px 31px -8px rgba(0,0,0,1);
         -webkit-box-shadow: 10px 10px 31px -8px rgba(0,0,0,1);
         -moz-box-shadow: 10px 10px 31px -8px rgba(0,0,0,1);
+
         }
     }
 
