@@ -9,7 +9,7 @@ function BlogsPage() {
                 <Title title= {'Recent Blogs'} span={'Recent Blogs'} />
             </div>
             <div className="BlogsPage">
-            {
+            {/* {
                 allBlogs.map((blog)=> {
                     return <div className="blog" key={blog.id}>
                         <div className="blog-content">
@@ -20,7 +20,8 @@ function BlogsPage() {
                         </div> 
                     </div>
                 })
-            }
+            } */}
+            <h1>Coming soon</h1>
             </div>
         </div>
     )
