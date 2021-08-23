@@ -2,10 +2,10 @@ import React from 'react';
 import Title from '../components/Title'
 import ImageSection from '../components/ImageSection';
 import SkillsSection from '../components/SkillsSection';
-import ServicesSection from '../components/ServicesSection';
-import design from '../img/design.svg'
-import intelligence from '../img/intelligence.svg'
-import gamedev from '../img/game-dev.svg'
+// import ServicesSection from '../components/ServicesSection';
+// import design from '../img/design.svg'
+// import intelligence from '../img/intelligence.svg'
+// import gamedev from '../img/game-dev.svg'
 
 function AboutPage() {
     return (
@@ -23,12 +23,12 @@ function AboutPage() {
                 <SkillsSection skill={'ReactJS'} progress={'70%'} width={'70%'}/>
                 <SkillsSection skill={'Photoshop'} progress={'70%'} width={'70%'}/>
             </div>
-            <Title title= {'Services'} span={'Services'} />
+            {/* <Title title= {'Services'} span={'Services'} />
             <div className="services-container">
                 <ServicesSection image={design} title={'Web Design'} text={'text text text text text text'}/>
                 <ServicesSection image={intelligence} title={'Artifical Intelligence'} text={'text text text text text text'}/>
                 <ServicesSection image={gamedev} title={'Game Development'} text={'text text text text text text'}/>
-            </div>
+            </div> */}
         </div>
     )
 };
