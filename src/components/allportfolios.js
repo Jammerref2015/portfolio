@@ -10,7 +10,9 @@ import Firebirds from '../img/portImages/Firebirds.PNG';
 import frenchFun from '../img/portImages/frenchFun.PNG';
 import movieReview from '../img/portImages/movieReview.PNG';
 import Dark_Castle from '../img/portImages/Dark_Castle.PNG';
-import slack from '../img/portImages/slack.PNG';
+import airbnb from '../img/portImages/airbnb.png';
+import boutique from '../img/portImages/Boutique.JPG';
+import running from '../img/portImages/running.jpg';
 
 const portfolios = [
     {
@@ -75,14 +77,34 @@ const portfolios = [
     },
     {
         id: 7,
-        category: 'React JS',
-        link1: 'https://slack-clone-bd940.web.app/',
-        link2: 'https://github.com/Jammerref2015/slack-clone',
+        category: 'React Native',
+        link1: '#',
+        link2: 'https://github.com/Jammerref2015/AirBnBClone',
         icon1: 'site',
         icon2: 'repo',
-        image:  slack,
-        title: 'Work in progress slack clone. (reactJS)'
-    }
+        image:  airbnb,
+        title: '[Work in progress] AirBNB clone for Android. (react native)'
+    },
+    {
+        id: 7,
+        category: 'eCommerce',
+        link1: 'https://ades-boutique-ado.herokuapp.com/',
+        link2: 'https://github.com/Jammerref2015/boutique_ado_v1',
+        icon1: 'site',
+        icon2: 'repo',
+        image: boutique,
+        title: 'Small boutique ecommerce store. (Full Stack)'
+    },
+    {
+        id: 8,
+        category: 'Bootstrap',
+        link1: 'https://jammerref2015.github.io/Love-Running/index.html',
+        link2: 'https://github.com/Jammerref2015/Love-Running',
+        icon1: 'site',
+        icon2: 'repo',
+        image: running,
+        title: 'Small website dedicated to a love of running created using Bootstrap'
+    },
 ]
 
 export default portfolios;
