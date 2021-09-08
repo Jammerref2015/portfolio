@@ -8,6 +8,7 @@ import BlogsPage from './pages/BlogsPage';
 import ContactPage from './pages/ContactPage';
 import { useState } from 'react';
 
+
 function App() {
 
   const [navToggle, setNavToggle] = useState(false);

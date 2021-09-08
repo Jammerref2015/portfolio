@@ -19,9 +19,8 @@ function HomePage() {
             <span> Adrian Looney</span>
           </h1>
           <p className="h-sub-text">
-            Random placeholder text. Random placeholder text. Random placeholder
-            text. Random placeholder text. Random placeholder text.Random
-            placeholder text.Random placeholder text.Random placeholder text.
+           Hello! My name is Adrian and I am a Web Developer. Check out my portfolio for 
+           examples of my work to date.   
           </p>
           <div className="icons">
             
