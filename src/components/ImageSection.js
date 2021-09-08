@@ -2,6 +2,7 @@ import React from 'react';
 // import about from '../img/about.jpg'
 // import testImage from '../img/About_2-min.jpg'
 import testImage from '../img/about.gif'
+import Pdf from "../components/Adrian_Looney.pdf"
 
 function ImageSection() {
     return (
@@ -38,7 +39,17 @@ function ImageSection() {
                     </div>
                     
                 </div>
-                <button className="btn">Download CV</button>
+               
+                
+
+
+  
+
+   <a href={Pdf} without rel="noopener noreferrer" target="_blank">
+      <button className="btn" label="Resume">
+        Download CV
+      </button>
+   </a>
             </div>
         </div>
     )
