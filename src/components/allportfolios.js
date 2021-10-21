@@ -27,7 +27,7 @@ const portfolios = [
         icon1: 'site',
         icon2: 'repo',
         image: retro_game_hackathon,
-        title: 'Video Game Hackathon![HTML/CSS/JS]'
+        title: 'Video Game Hackathon!'
     },
     {
         id: 2,
@@ -37,7 +37,7 @@ const portfolios = [
         icon1: 'site',
         icon2: 'repo',
         image: pride_hackathon,
-        title: 'Hackathon to celebrate Pride! [HTML/CSS/JS]'
+        title: 'Hackathon to celebrate Pride!'
     },
     {
         id: 3,
@@ -47,7 +47,7 @@ const portfolios = [
         icon1: 'site',
         icon2: 'repo',
         image: Firebirds,
-        title: 'CorkCity Firebirds Roller Derby [HTML/CSS/JS]'
+        title: 'CorkCity Firebirds Roller Derby.'
     },
     {
         id: 4,
@@ -57,7 +57,7 @@ const portfolios = [
         icon1: 'site',
         icon2: 'repo',
         image: frenchFun,
-        title: 'French is Fun. A simple learning langauge app.[HTML/CSS/JS]'
+        title: 'French is Fun. A simple learning langauge app.'
     },
     {
         id: 5,
@@ -67,7 +67,7 @@ const portfolios = [
         icon1: 'site',
         icon2: 'repo',
         image: movieReview,
-        title: 'Watch This Next - A simple movie review site. [HTML/CSS/JS/Python/Flask/MongoDB]'
+        title: 'Watch This Next - A simple movie review site.'
     },
     {
         id: 6,
@@ -77,7 +77,7 @@ const portfolios = [
         icon1: 'site',
         icon2: 'repo',
         image: Dark_Castle,
-        title: ' Dark Castle Brewery. Full stack E-commerce app. [Django/AWS/Stripe]'
+        title: ' Dark Castle Brewery. Full stack E-commerce app.'
     },
     {
         id: 7,
@@ -87,7 +87,7 @@ const portfolios = [
         icon1: 'site',
         icon2: 'repo',
         image:  airbnb,
-        title: '[Work in progress] AirBNB clone for Android. [react native]'
+        title: '[Work in progress] AirBNB clone for Android.'
     },
     {
         id: 8,
@@ -97,7 +97,7 @@ const portfolios = [
         icon1: 'site',
         icon2: 'repo',
         image: boutique,
-        title: 'Small boutique ecommerce store. [Django/AWS/Stripe]'
+        title: 'Small boutique ecommerce store.'
     },
     {
         id: 9,
@@ -107,7 +107,7 @@ const portfolios = [
         icon1: 'site',
         icon2: 'repo',
         image: running,
-        title: 'Small website dedicated to a love of running created using Bootstrap [HTML/CSS]'
+        title: 'Small website dedicated to a love of running created using Bootstrap.'
     },
     {
         id: 10,
@@ -127,7 +127,7 @@ const portfolios = [
         icon1: 'site',
         icon2: 'repo',
         image:  helloween,
-        title: 'Helloween hackathon project. [HTML/CSS/JS]'
+        title: 'Helloween hackathon project.'
     },
 ]
 
