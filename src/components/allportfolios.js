@@ -13,6 +13,10 @@ import Dark_Castle from '../img/portImages/Dark_Castle.PNG';
 import airbnb from '../img/portImages/airbnb.png';
 import boutique from '../img/portImages/Boutique.JPG';
 import running from '../img/portImages/running.jpg';
+import panda from '../img/portImages/panda_hackathon.gif';
+import helloween from '../img/portImages/helloween.jpeg';
+
+
 
 const portfolios = [
     {
@@ -23,7 +27,7 @@ const portfolios = [
         icon1: 'site',
         icon2: 'repo',
         image: retro_game_hackathon,
-        title: 'Video Game Hackathon!'
+        title: 'Video Game Hackathon![HTML/CSS/JS]'
     },
     {
         id: 2,
@@ -33,7 +37,7 @@ const portfolios = [
         icon1: 'site',
         icon2: 'repo',
         image: pride_hackathon,
-        title: 'Hackathon to celebrate Pride!'
+        title: 'Hackathon to celebrate Pride! [HTML/CSS/JS]'
     },
     {
         id: 3,
@@ -43,7 +47,7 @@ const portfolios = [
         icon1: 'site',
         icon2: 'repo',
         image: Firebirds,
-        title: 'CorkCity Firebirds Roller Derby'
+        title: 'CorkCity Firebirds Roller Derby [HTML/CSS/JS]'
     },
     {
         id: 4,
@@ -53,7 +57,7 @@ const portfolios = [
         icon1: 'site',
         icon2: 'repo',
         image: frenchFun,
-        title: 'French is Fun. A simple learning langauge app.'
+        title: 'French is Fun. A simple learning langauge app.[HTML/CSS/JS]'
     },
     {
         id: 5,
@@ -63,7 +67,7 @@ const portfolios = [
         icon1: 'site',
         icon2: 'repo',
         image: movieReview,
-        title: 'Watch This Next - A simple movie review site. (Flask and MongoDB)'
+        title: 'Watch This Next - A simple movie review site. [HTML/CSS/JS/Python/Flask/MongoDB]'
     },
     {
         id: 6,
@@ -73,7 +77,7 @@ const portfolios = [
         icon1: 'site',
         icon2: 'repo',
         image: Dark_Castle,
-        title: ' Dark Castle Brewery. Full stack E-commerce app. (Django, AWS)'
+        title: ' Dark Castle Brewery. Full stack E-commerce app. [Django/AWS/Stripe]'
     },
     {
         id: 7,
@@ -83,7 +87,7 @@ const portfolios = [
         icon1: 'site',
         icon2: 'repo',
         image:  airbnb,
-        title: '[Work in progress] AirBNB clone for Android. (react native)'
+        title: '[Work in progress] AirBNB clone for Android. [react native]'
     },
     {
         id: 8,
@@ -93,7 +97,7 @@ const portfolios = [
         icon1: 'site',
         icon2: 'repo',
         image: boutique,
-        title: 'Small boutique ecommerce store. (Full Stack)'
+        title: 'Small boutique ecommerce store. [Django/AWS/Stripe]'
     },
     {
         id: 9,
@@ -103,7 +107,27 @@ const portfolios = [
         icon1: 'site',
         icon2: 'repo',
         image: running,
-        title: 'Small website dedicated to a love of running created using Bootstrap'
+        title: 'Small website dedicated to a love of running created using Bootstrap [HTML/CSS]'
+    },
+    {
+        id: 10,
+        category: 'Hackathon',
+        link1: '#',
+        link2: '#',
+        icon1: 'site',
+        icon2: 'repo',
+        image:  panda,
+        title: 'Panda - Full stack application for creating accessibilty friendly company listings. [Coming Soon]'
+    },
+     {
+        id: 11,
+        category: 'Hackathon',
+        link1: 'https://steveforrest.github.io/halloween-hacktober-2021/',
+        link2: 'https://github.com/steveforrest/halloween-hacktober-2021',
+        icon1: 'site',
+        icon2: 'repo',
+        image:  helloween,
+        title: 'Helloween hackathon project. [HTML/CSS/JS]'
     },
 ]
 
